@@ -16,12 +16,12 @@ function CryptoDataTable({ data }: Props) {
   return (
     <div className="flex justify-center bg-gray-100 py-8 px-4 min-h-screen">
       <div className="w-11/12 md:w-4/5 lg:w-3/4 bg-white shadow-lg rounded-lg p-6">
-        <h2 className="text-center mb-6" style={{fontSize: '4rem'}}>
+        <h2 className="text-center mb-6" style={{fontSize: '2rem'}}>
           Crypto Tracker
         </h2>
         <div className="overflow-x-auto rounded-lg border border-gray-200">
           <table className="min-w-full divide-y divide-gray-200">
-            <thead className="bg-gray-50" style={{fontSize: '2rem'}}>
+            <thead className="bg-gray-50" style={{fontSize: '1.5rem'}}>
               <tr>
                 <th className="py-3 px-6 text-left">Name</th>
                 <th className="py-3 px-6 text-left">Symbol</th>
