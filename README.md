@@ -22,7 +22,7 @@ cd nodeBackend
 npm install
 
 Create a .env file with:
-MONGO_URI=mongodb+srv://nehacrypto:neha2025@mycryptodb.sizyn8q.mongodb.net/?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://nehacrypto:*************@mycryptodb.sizyn8q.mongodb.net/?retryWrites=true&w=majority
 PORT=5000
 
 Start backend:
