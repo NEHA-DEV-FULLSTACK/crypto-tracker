@@ -14,8 +14,8 @@ interface Props {
 
 function CryptoDataTable({ data }: Props) {
   return (
-    <div className="flex justify-center bg-gray-100 py-8 px-4 min-h-screen">
-      <div className="w-11/12 md:w-4/5 lg:w-3/4 bg-white shadow-lg rounded-lg p-6">
+    <div className="flex justify-center">
+      <div className="w-11/12 md:w-4/5 lg:w-3/4 bg-white shadow-lg rounded-lg">
         <h2 className="text-center mb-6" style={{fontSize: '2rem'}}>
           Crypto Tracker
         </h2>
